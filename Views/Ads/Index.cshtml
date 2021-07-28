@@ -1,0 +1,47 @@
+@model IEnumerable<thuctap_CTN.Models.Ad>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AdUsername)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdTen)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdUsername)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdTen)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AdId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.AdId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.AdId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

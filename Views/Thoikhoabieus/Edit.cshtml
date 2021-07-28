@@ -1,0 +1,56 @@
+@model thuctap_CTN.Models.Thoikhoabieu
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Thoikhoabieu</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="TkbId" />
+            <div class="form-group">
+                <label asp-for="LId" class="control-label"></label>
+                <select asp-for="LId" class="form-control" asp-items="ViewBag.LId"></select>
+                <span asp-validation-for="LId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HvId" class="control-label"></label>
+                <select asp-for="HvId" class="form-control" asp-items="ViewBag.HvId"></select>
+                <span asp-validation-for="HvId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TkbMonhoc" class="control-label"></label>
+                <input asp-for="TkbMonhoc" class="form-control" />
+                <span asp-validation-for="TkbMonhoc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TkbKhunggio" class="control-label"></label>
+                <input asp-for="TkbKhunggio" class="form-control" />
+                <span asp-validation-for="TkbKhunggio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TkbNgay" class="control-label"></label>
+                <input asp-for="TkbNgay" class="form-control" />
+                <span asp-validation-for="TkbNgay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TkbLinkhoc" class="control-label"></label>
+                <input asp-for="TkbLinkhoc" class="form-control" />
+                <span asp-validation-for="TkbLinkhoc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

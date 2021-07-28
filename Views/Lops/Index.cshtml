@@ -1,0 +1,65 @@
+@model IEnumerable<thuctap_CTN.Models.Lop>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LTen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LMota)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LKhoa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LNgaybatdau)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LNgayketthuc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LTrangthai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LMota)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LKhoa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LNgaybatdau)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LNgayketthuc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LTrangthai)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.LId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.LId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

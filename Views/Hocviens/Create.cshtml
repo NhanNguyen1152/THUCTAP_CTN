@@ -1,0 +1,65 @@
+@model thuctap_CTN.Models.Hocvien
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Hocvien</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="HvId" class="control-label"></label>
+                <input asp-for="HvId" class="form-control" />
+                <span asp-validation-for="HvId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HvNgaysinh" class="control-label"></label>
+                <input asp-for="HvNgaysinh" class="form-control" />
+                <span asp-validation-for="HvNgaysinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HvGioitinh" class="control-label"></label>
+                <input asp-for="HvGioitinh" class="form-control" />
+                <span asp-validation-for="HvGioitinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HvDiachi" class="control-label"></label>
+                <input asp-for="HvDiachi" class="form-control" />
+                <span asp-validation-for="HvDiachi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HvSdt" class="control-label"></label>
+                <input asp-for="HvSdt" class="form-control" />
+                <span asp-validation-for="HvSdt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HvEmail" class="control-label"></label>
+                <input asp-for="HvEmail" class="form-control" />
+                <span asp-validation-for="HvEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HvNgayvao" class="control-label"></label>
+                <input asp-for="HvNgayvao" class="form-control" />
+                <span asp-validation-for="HvNgayvao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HvHinhanh" class="control-label"></label>
+                <input asp-for="HvHinhanh" class="form-control" />
+                <span asp-validation-for="HvHinhanh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

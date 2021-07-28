@@ -1,0 +1,30 @@
+@model thuctap_CTN.Models.Taikhoan
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Taikhoan</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TkUrn)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TkUrn)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TkPw)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TkPw)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.TkId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

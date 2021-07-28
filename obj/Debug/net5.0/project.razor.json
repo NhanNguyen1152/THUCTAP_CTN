@@ -15619,8 +15619,78 @@
   "RootNamespace": "thuctap_CTN",
   "Documents": [
     {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Hocviens\\Delete.cshtml",
+      "TargetPath": "Views\\Hocviens\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Chitietbaigiangs\\Delete.cshtml",
+      "TargetPath": "Views\\Chitietbaigiangs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Chitietlops\\Details.cshtml",
+      "TargetPath": "Views\\Chitietlops\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Loaibaigiangs\\Edit.cshtml",
+      "TargetPath": "Views\\Loaibaigiangs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Lops\\Create.cshtml",
+      "TargetPath": "Views\\Lops\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Loaibaigiangs\\Details.cshtml",
+      "TargetPath": "Views\\Loaibaigiangs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Lops\\Edit.cshtml",
+      "TargetPath": "Views\\Lops\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Chitietlops\\Edit.cshtml",
+      "TargetPath": "Views\\Chitietlops\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Thoikhoabieus\\Edit.cshtml",
+      "TargetPath": "Views\\Thoikhoabieus\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Baigiangs\\Edit.cshtml",
+      "TargetPath": "Views\\Baigiangs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Ads\\Create.cshtml",
+      "TargetPath": "Views\\Ads\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Chitietbaigiangs\\Index.cshtml",
+      "TargetPath": "Views\\Chitietbaigiangs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Chitietlops\\Create.cshtml",
+      "TargetPath": "Views\\Chitietlops\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\thuctap_CTN\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Taikhoans\\Create.cshtml",
+      "TargetPath": "Views\\Taikhoans\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15629,8 +15699,88 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Loaibaigiangs\\Delete.cshtml",
+      "TargetPath": "Views\\Loaibaigiangs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Ads\\Index.cshtml",
+      "TargetPath": "Views\\Ads\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Taikhoans\\Details.cshtml",
+      "TargetPath": "Views\\Taikhoans\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\thuctap_CTN\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Thoikhoabieus\\Delete.cshtml",
+      "TargetPath": "Views\\Thoikhoabieus\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Thoikhoabieus\\Details.cshtml",
+      "TargetPath": "Views\\Thoikhoabieus\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Chitietlops\\Delete.cshtml",
+      "TargetPath": "Views\\Chitietlops\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Lops\\Index.cshtml",
+      "TargetPath": "Views\\Lops\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Hocviens\\Details.cshtml",
+      "TargetPath": "Views\\Hocviens\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Hocviens\\Edit.cshtml",
+      "TargetPath": "Views\\Hocviens\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Baigiangs\\Delete.cshtml",
+      "TargetPath": "Views\\Baigiangs\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Baigiangfiles\\Edit.cshtml",
+      "TargetPath": "Views\\Baigiangfiles\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Lops\\Delete.cshtml",
+      "TargetPath": "Views\\Lops\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Baigiangfiles\\Delete.cshtml",
+      "TargetPath": "Views\\Baigiangfiles\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Loaibaigiangs\\Create.cshtml",
+      "TargetPath": "Views\\Loaibaigiangs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Baigiangs\\Create.cshtml",
+      "TargetPath": "Views\\Baigiangs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Taikhoans\\Edit.cshtml",
+      "TargetPath": "Views\\Taikhoans\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15639,8 +15789,88 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Baigiangfiles\\Create.cshtml",
+      "TargetPath": "Views\\Baigiangfiles\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Loaibaigiangs\\Index.cshtml",
+      "TargetPath": "Views\\Loaibaigiangs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Baigiangfiles\\Details.cshtml",
+      "TargetPath": "Views\\Baigiangfiles\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Baigiangs\\Details.cshtml",
+      "TargetPath": "Views\\Baigiangs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Chitietlops\\Index.cshtml",
+      "TargetPath": "Views\\Chitietlops\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Thoikhoabieus\\Index.cshtml",
+      "TargetPath": "Views\\Thoikhoabieus\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Taikhoans\\Delete.cshtml",
+      "TargetPath": "Views\\Taikhoans\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Chitietbaigiangs\\Details.cshtml",
+      "TargetPath": "Views\\Chitietbaigiangs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Ads\\Delete.cshtml",
+      "TargetPath": "Views\\Ads\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Lops\\Details.cshtml",
+      "TargetPath": "Views\\Lops\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Ads\\Details.cshtml",
+      "TargetPath": "Views\\Ads\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Ads\\Edit.cshtml",
+      "TargetPath": "Views\\Ads\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Hocviens\\Index.cshtml",
+      "TargetPath": "Views\\Hocviens\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\thuctap_CTN\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Chitietbaigiangs\\Create.cshtml",
+      "TargetPath": "Views\\Chitietbaigiangs\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Taikhoans\\Index.cshtml",
+      "TargetPath": "Views\\Taikhoans\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Baigiangfiles\\Index.cshtml",
+      "TargetPath": "Views\\Baigiangfiles\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15651,6 +15881,26 @@
     {
       "FilePath": "d:\\thuctap_CTN\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Baigiangs\\Index.cshtml",
+      "TargetPath": "Views\\Baigiangs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Thoikhoabieus\\Create.cshtml",
+      "TargetPath": "Views\\Thoikhoabieus\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Chitietbaigiangs\\Edit.cshtml",
+      "TargetPath": "Views\\Chitietbaigiangs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\thuctap_CTN\\Views\\Hocviens\\Create.cshtml",
+      "TargetPath": "Views\\Hocviens\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

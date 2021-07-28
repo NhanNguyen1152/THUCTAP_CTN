@@ -1,0 +1,60 @@
+@model thuctap_CTN.Models.Lop
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Lop</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LId" class="control-label"></label>
+                <input asp-for="LId" class="form-control" />
+                <span asp-validation-for="LId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LTen" class="control-label"></label>
+                <input asp-for="LTen" class="form-control" />
+                <span asp-validation-for="LTen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LMota" class="control-label"></label>
+                <input asp-for="LMota" class="form-control" />
+                <span asp-validation-for="LMota" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LKhoa" class="control-label"></label>
+                <input asp-for="LKhoa" class="form-control" />
+                <span asp-validation-for="LKhoa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LNgaybatdau" class="control-label"></label>
+                <input asp-for="LNgaybatdau" class="form-control" />
+                <span asp-validation-for="LNgaybatdau" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LNgayketthuc" class="control-label"></label>
+                <input asp-for="LNgayketthuc" class="form-control" />
+                <span asp-validation-for="LNgayketthuc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LTrangthai" class="control-label"></label>
+                <input asp-for="LTrangthai" class="form-control" />
+                <span asp-validation-for="LTrangthai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

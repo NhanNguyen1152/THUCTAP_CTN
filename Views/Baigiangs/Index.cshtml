@@ -1,0 +1,53 @@
+@model IEnumerable<thuctap_CTN.Models.Baigiang>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BgTen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BgTrangthai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bgf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Loai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BgTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BgTrangthai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bgf.BgfId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Loai.LoaiId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BgId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BgId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.BgId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

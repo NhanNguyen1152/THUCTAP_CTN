@@ -1,0 +1,54 @@
+@model thuctap_CTN.Models.Lop
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Lop</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LTen)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LTen)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LMota)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LMota)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LKhoa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LKhoa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LNgaybatdau)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LNgaybatdau)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LNgayketthuc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LNgayketthuc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LTrangthai)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LTrangthai)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.LId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
